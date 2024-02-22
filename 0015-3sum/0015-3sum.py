@@ -21,7 +21,11 @@ class Solution:
         #             while j < k and nums[k] == nums[k+1]: k-=1
         
         # return res
-            
+
+        # Practice
+
+# sort the array, i, j = i+1, k=n-1 add i,j,k, if it is 0, add it to res, check for 
+# distinct j, k values, if sum>0, k-=1 else j+=1 anthe
         n, res = len(nums), []
         nums.sort()                # we are sorting because we want to reduce SC by not using set and the need to sort every output array
         for i in range(n):
@@ -54,27 +58,6 @@ class Solution:
 
 
 
-
-
-
-
-
-
-
-
-        prefix, dic,res = 0,{},0
-        for i,val in enumerate(nums):
-            prefix +=val
-
-            if prefix == k:
-                res = i+1
-
-            if prefix-k in dic:
-                res = max(res, i-dic[prefix-k])
-
-            if prefix not in dic:
-                dic[prefix] = i
-        return res 
 
 
 
