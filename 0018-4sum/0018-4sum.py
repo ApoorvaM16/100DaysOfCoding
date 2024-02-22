@@ -1,33 +1,62 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
 
-        def findNsum(nums, target, N, cur):
-            if len(nums) < N or N < 2 or nums[0] * N > target or nums[-1] * N < target:  # if minimum possible sum (every element is first element) > target 
-                return  # or maximum possible sum (every element is first element) < target, it's impossible to get target anyway          
-            if N == 2:  # 2-sum problem
-                l, r = 0, len(nums) - 1
-                while l < r:
-                    s = nums[l] + nums[r]
-                    if s == target:
-                        res.append(cur + [nums[l], nums[r]])
-                        while l < r and nums[l] == nums[l - 1]:
-                            l += 1
-                        while l < r and nums[r] == nums[r - 1]:
-                            r -= 1
-                        l += 1
-                        r -= 1
-                    elif s < target:
-                        l += 1
-                    else:
-                        r -= 1
-            else:  # reduce to N-1 sum problem
-                for i in range(len(nums) - N + 1):
-                    if i == 0 or nums[i - 1] != nums[i]:
-                        findNsum(nums[i + 1 :], target - nums[i], N - 1, cur + [nums[i]])
+        # def findNsum(nums, target, N, cur):
+        #     if len(nums) < N or N < 2 or nums[0] * N > target or nums[-1] * N < target:  # if minimum possible sum (every element is first element) > target 
+        #         return  # or maximum possible sum (every element is first element) < target, it's impossible to get target anyway          
+        #     if N == 2:  # 2-sum problem
+        #         l, r = 0, len(nums) - 1
+        #         while l < r:
+        #             s = nums[l] + nums[r]
+        #             if s == target:
+        #                 res.append(cur + [nums[l], nums[r]])
+        #                 while l < r and nums[l] == nums[l - 1]:
+        #                     l += 1
+        #                 while l < r and nums[r] == nums[r - 1]:
+        #                     r -= 1
+        #                 l += 1
+        #                 r -= 1
+        #             elif s < target:
+        #                 l += 1
+        #             else:
+        #                 r -= 1
+        #     else:  # reduce to N-1 sum problem
+        #         for i in range(len(nums) - N + 1):
+        #             if i == 0 or nums[i - 1] != nums[i]:
+        #                 findNsum(nums[i + 1 :], target - nums[i], N - 1, cur + [nums[i]])
 
-        res = []
-        findNsum(sorted(nums), target, 4, [])
+        # res = []
+        # findNsum(sorted(nums), target, 4, [])
+        # return res
+
+        nums.sort()
+        res, quad = [],[]
+        def kSum(k, start, target):
+            if k != 2:
+                for i in range(start, len(nums) -k +1):
+                    if i > start and nums[i] == nums[i-1]:
+                        continue
+                    quad.append(nums[i])
+                    kSum(k-1, i+1,target-nums[i])
+                    quad.pop()
+                return
+            
+            i,j = start, len(nums)-1
+            while i<j:
+                temp = nums[i] + nums[j]
+                if temp > target:
+                    j -=1
+                elif temp < target:
+                    i +=1
+                else:
+                    res.append(quad + [nums[i], nums[j]])
+                    i +=1
+                    while i < j and nums[i] == nums[i-1]:
+                        i +=1
+        kSum(4,0,target)
         return res
+
+
 
         
 
