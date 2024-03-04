@@ -1,15 +1,5 @@
 # Write your MySQL query statement below
-# SELECT ACTIVITY_DATE AS DAY, COUNT(DISTINCT USER_ID) ACTIVE_USERS
-# FROM ACTIVITY
-# WHERE ACTIVITY_DATE > '2019-06-27' AND ACTIVITY_DATE <= '2019-07-27'
-# GROUP BY ACTIVITY_DATE
-
-
-SELECT ACTIVITY_DATE AS DAY, COUNT(DISTINCT USER_ID) AS ACTIVE_USERS
-FROM ACTIVITY
-GROUP BY ACTIVITY_DATE
-HAVING ACTIVITY_DATE > DATE_SUB('2019-07-27', INTERVAL 30 DAY) AND ACTIVITY_DATE <= '2019-07-27'
-
-
-
-
+select activity_Date as day, count(distinct user_id) active_users
+from activity
+group by activity_date
+having activity_date > date_sub('2019-07-27', interval 30 day) and activity_date <='2019-07-27'
