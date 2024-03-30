@@ -5,6 +5,6 @@ class Solution:
             diff = target - num
             if diff in num_map:
                 return [i,num_map[diff]]
-            else:
-                num_map[num] = i
+    
+            num_map[num] = i
         
