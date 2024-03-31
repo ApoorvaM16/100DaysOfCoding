@@ -3,25 +3,16 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # dic = {}
-        # nums1 = []
-        # for i in nums:
-        #     if i in dic:
-        #         dic[i] +=1
-        #     else:
-        #         dic[i] = 1
-        
-        # for i in range(3):
-        #     if i in dic:
-        #         nums1[:] += [i] * dic[i]
-        # nums[:] = nums1
-        
-
-
-        numMap,res = defaultdict(int), []
-        for i in nums:
-            numMap[i] +=1
-        
-        for i in range(3):
-            res+=[i] * numMap[i]
-        nums[:] = res
+        n = len(nums)
+        p1,p,p2 = 0,0,n-1
+        while p <= p2:
+            if nums[p] == 0:
+                nums[p], nums[p1] = nums[p1], nums[p]
+                p +=1
+                p1 +=1
+            elif nums[p] ==1:
+                p +=1
+            else:
+                nums[p], nums[p2] = nums[p2], nums[p]
+                p2 -=1
+                
