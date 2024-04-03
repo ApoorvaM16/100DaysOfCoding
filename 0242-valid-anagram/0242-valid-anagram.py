@@ -24,27 +24,27 @@ class Solution:
     
     
     
+#     using 2 dictionaries
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        strMap1 = defaultdict(int)
-        strMap2 = defaultdict(int)
-        for i in s:
-            strMap1[i] +=1
-        for i in t:
-            strMap2[i] +=1
-        return strMap1 == strMap2
+        # strMap1 = defaultdict(int)
+        # strMap2 = defaultdict(int)
+        # for i in s:
+        #     strMap1[i] +=1
+        # for i in t:
+        #     strMap2[i] +=1
+        # return strMap1 == strMap2
+        
+        if len(s) != len(t): return False
+        strMap = defaultdict(int)
+        for i in range(len(s)):
+            strMap[s[i]] +=1
+            strMap[t[i]] -=1
+        for val in strMap.values():
+            if val != 0:
+                return False
+        return True
             
+        
         
         
         
