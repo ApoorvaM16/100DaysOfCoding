@@ -21,9 +21,30 @@ class Solution:
 #         return True
     
     
-        s = s.lower()
-        t = t.lower()
-        return sorted(s) == sorted(t)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        strMap1 = defaultdict(int)
+        strMap2 = defaultdict(int)
+        for i in s:
+            strMap1[i] +=1
+        for i in t:
+            strMap2[i] +=1
+        return strMap1 == strMap2
+            
         
         
         
