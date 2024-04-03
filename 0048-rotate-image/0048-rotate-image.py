@@ -17,7 +17,7 @@ class Solution:
         
         # reversing the matrix row
         for i in matrix:
-            i[:] = i[::-1]
+            i.reverse()
             
             
             
