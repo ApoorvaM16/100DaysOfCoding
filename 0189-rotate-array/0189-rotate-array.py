@@ -4,7 +4,5 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         k = k% len(nums)
-        res = nums[-k:]
-        res += nums[:-k]
-        nums[:] = res
+        nums[:] =  nums[-k:] + nums[:-k]
         
