@@ -16,3 +16,19 @@ The aim of this project is to improve my understanding and implementation of dif
 - Recursion
 - Hash Tables
 - And many more...
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
+## Two Pointers
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
+<!---LeetCode Topics End-->
