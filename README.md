@@ -44,10 +44,12 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 ## Divide and Conquer
 |  |
@@ -56,9 +58,14 @@ The aim of this project is to improve my understanding and implementation of dif
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+## String
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
