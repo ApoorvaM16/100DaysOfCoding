@@ -31,4 +31,12 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
