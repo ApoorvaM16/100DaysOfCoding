@@ -27,6 +27,7 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0287-find-the-duplicate-number) |
 | [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
 ## Brainteaser
 |  |
@@ -46,6 +47,7 @@ The aim of this project is to improve my understanding and implementation of dif
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+| [0287-find-the-duplicate-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -68,4 +70,12 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
+## Binary Search
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
