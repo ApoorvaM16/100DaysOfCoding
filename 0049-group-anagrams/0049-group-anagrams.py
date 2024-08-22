@@ -1,15 +1,21 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        if strs == '' or len(strs) == 1:
-            return [strs]
-        res, strDict = [],{}
-        for i in strs:
-            j = ''.join(sorted(i))
-            if j in strDict:
-                strDict[j].append(i)
-            else:
-                strDict[j] = [i]
-        print(strDict)
-        for key, val in strDict.items():
-            res.append(val)
-        return res
+        # group anagrams into a hashmap
+        anagramDict = defaultdict(list)
+
+        for word in strs:
+            sorted_word = "".join(sorted(word))
+            anagramDict[sorted_word].append(word)
+        return list(anagramDict.values())
+            
+
+        # traverse hashmap and return each group into subarrays of a  res array
+
+
+        # anagram_map = defaultdict(list)
+        
+        # for word in strs:
+        #     sorted_word = ''.join(sorted(word))
+        #     anagram_map[sorted_word].append(word)
+        # return list(anagram_map.values())
+        
