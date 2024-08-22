@@ -39,4 +39,24 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0206-reverse-linked-list) |
+## Array
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+## Hash Table
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
