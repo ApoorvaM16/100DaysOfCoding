@@ -7,18 +7,29 @@ class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head.next == None:
             return head
-        count, current = 0, head
         
-        while current:
-            current = current.next
-            count +=1
-        mid = (count // 2)
+        slow = fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+
+
+        # O(n + n/2)
+        # if head.next == None:
+        #     return head
+        # count, current = 0, head
         
-        counter, current = 0, head
-        while current:
-            if counter == mid:
-                return current
-            current = current.next
-            counter +=1
+        # while current:
+        #     current = current.next
+        #     count +=1
+        # mid = (count // 2)
+        
+        # counter, current = 0, head
+        # while current:
+        #     if counter == mid:
+        #         return current
+        #     current = current.next
+        #     counter +=1
 
         
