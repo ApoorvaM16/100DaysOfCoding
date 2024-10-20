@@ -11,11 +11,11 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
             if slow == fast:
-                break
-        else: return None    
-        while head != slow:
-            slow = slow.next
-            head = head.next
-        return head
+                slow = head
+                while slow != fast:
+                    slow = slow.next
+                    fast = fast.next
+                return slow
+        return None
 
         
