@@ -36,6 +36,7 @@ The aim of this project is to improve my understanding and implementation of dif
 | [0283-move-zeroes](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0287-find-the-duplicate-number) |
 | [0908-middle-of-the-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0908-middle-of-the-linked-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2481-strictly-palindromic-number](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2481-strictly-palindromic-number) |
 ## Brainteaser
 |  |
@@ -50,6 +51,7 @@ The aim of this project is to improve my understanding and implementation of dif
 | [0234-palindrome-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0908-middle-of-the-linked-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
