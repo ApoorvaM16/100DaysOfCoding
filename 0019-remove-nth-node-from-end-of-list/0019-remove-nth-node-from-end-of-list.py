@@ -8,12 +8,12 @@ class Solution:
         fast = head
         for i in range(n):
             fast = fast.next
-            
+
         if fast == None:
             return head.next
 
         slow = head
-        while fast.next is not None:
+        while fast.next:
             fast = fast.next
             slow = slow.next
         
