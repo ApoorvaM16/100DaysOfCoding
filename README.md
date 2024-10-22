@@ -33,6 +33,7 @@ The aim of this project is to improve my understanding and implementation of dif
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0283-move-zeroes) |
@@ -51,6 +52,7 @@ The aim of this project is to improve my understanding and implementation of dif
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0328-odd-even-linked-list) |
@@ -83,12 +85,14 @@ The aim of this project is to improve my understanding and implementation of dif
 ## Divide and Conquer
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0049-group-anagrams) |
+| [0148-sort-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0169-majority-element) |
 ## Counting
 |  |
@@ -111,4 +115,8 @@ The aim of this project is to improve my understanding and implementation of dif
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0234-palindrome-linked-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/ApoorvaM16/100DaysOfCoding/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
