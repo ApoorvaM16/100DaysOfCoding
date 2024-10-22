@@ -19,13 +19,13 @@ class Solution:
             return count
 
         length = lengthLL(head)
-        counter, count = length - n, 0
+        counter = length - n
         if counter == 0:
             return head.next
         current = head
         while current:
-            count +=1
-            if counter == count:
+            counter -= 1
+            if counter == 0:
                 current.next = current.next.next
                 return head
             current = current.next
