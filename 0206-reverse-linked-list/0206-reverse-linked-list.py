@@ -6,13 +6,35 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # using recursion
+
         if head is None or head.next is None:
             return head
-        newHead = self.reverseList(head.next)
+        
+        current = head
+        newHead = self.reverseList(current.next)
         front = head.next
         front.next = head
         head.next = None
         return newHead
+
+
+
+
+
+
+
+
+
+
+
+
+        # if head is None or head.next is None:
+        #     return head
+        # newHead = self.reverseList(head.next)
+        # front = head.next
+        # front.next = head
+        # head.next = None
+        # return newHead
 
 
         # if head == None or head.next == None:
